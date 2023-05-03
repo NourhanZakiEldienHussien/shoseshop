@@ -1,0 +1,119 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> Nourhan Zaki's Project </title>
+</head>
+<body bgcolor=#1DAB82>
+<center> <h1> Nourhan's Store </h1> </center>
+<div align=center>
+<h3> Color: Brown </h3>
+<h3> Size: 34 </h3>
+<img src="1.jpg" height="200px" width="200px"><br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+<div align=center>
+<h3> Color: Red </h3>
+<h3> Size: 38</h3>
+<img src="2.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+<div align=center>
+<h3> Color: Black</h3>
+<h3> Size: 39 </h3>
+<img src="3.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div> 
+<div align=center>
+<h3> Color: Purple </h3>
+<h3> Size: 38 </h3>
+<img src="5.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div> 
+ <div align=center>
+<h3> Color: biege </h3>
+<h3> Size: 39 </h3>
+<img src="4.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div> 
+<div align=center>
+<h3> Color: Purple </h3>
+<h3> Size: 41 </h3>
+<img src="5.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div> 
+<div align=center>
+<h3> Color: Purple </h3>
+<h3> Size: 39 </h3>
+<img src="6.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+</div> 
+<div align=center>
+<h3> Color: Black</h3>
+<h3> Size: 38 </h3>
+<img src="7.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+ <div align=center>
+<h3> Color: pink </h3>
+<h3> Size: 39</h3>
+<img src="8.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+<div align=center>
+<h3> Color: cafe </h3>
+<h3> Size: 39 </h3>
+<img src="9.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+<div align=center>
+<h3> Color: rose </h3>
+<h3> Size: 48 </h3>
+<img src="10.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+<div align=center>
+<h3> Color: Purple </h3>
+<h3> Size: 40 </h3>
+<img src="11.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+<div align=center>
+<h3> Color: green </h3>
+<h3> Size: 39 </h3>
+<img src="12.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+<div align=center>
+<h3> Color: biege </h3>
+<h3> Size: 38 </h3>
+<img src="13.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+<div align=center>
+<h3> Color: Black </h3>
+<h3> Size: 39 </h3>
+<img src="14.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div>
+<div align=center>
+<h3> Color: Black </h3>
+<h3> Size: 37</h3>
+<img src="15.jpg" height="200px" width="200px"> <br> <br>
+<button class="button" onClick="btnFun()" role="button"><span class="text">Buy Now</span></button>
+</div> <br>
+<center><h1 id="text"></h1></center>
+<script>
+function btnFun() {
+  let text;
+  let person = prompt("Please enter your name:", "Sarah El-Metwally");
+  if (person == null || person == "") {
+    text = "Request has been cancelled";
+  } else {
+    text = "Thank you " + person + "! Your purchase request has been sent!";
+  }
+  document.getElementById("text").innerHTML = text;
+}
+</script>
+</body>
+</html>
